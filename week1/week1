@@ -1,0 +1,41 @@
+<html>
+    <b><head >MOBILE STORE</head></b><br>
+    <body align ="center"bgcolor="pink"></body>
+    <table border="3" ALIGN="CENTER">
+        <tr>
+            <td>S.NO</td>
+            <td>PRODUCT</td>
+            <td>IMAGE</td>
+            <td>PRODUCT INFO</td>
+            <TD>FEATURES</TD>
+            <TD>VIDEO</TD>
+        </tr>
+         <tr>
+            <td>1</td>
+            <td>SAMSUNG GALAXY S26 PRO</td>
+            <td><img src="s26.jpg" height="100" width="50"></td>
+            <td><ol><li>16gb ram</li>
+                    <li>256gb storage</li>
+                <li>ai phone</li>
+                <li>50mp camera</li>
+            </ol></td>
+            <TD><a href="samsungs26.html"> about this phone</a></TD>
+            <TD><a href="https://www.youtube.com/results?search_query=samsung+s26+">click this to watch this phone</a></TD>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>SAMSUNG GALAXY S25</td>
+            <td><img src="s25.webp"height="100",width="50"</td>
+            <td><ol><li>12mp front camera</li>
+                    <li>4900 moh battery</li>
+                    <li>exynos 2400</li></ol></td>
+            <TD><a href="samsungs25.html">this this the phone model</a> </TD>
+            <TD><a href="https://www.youtube.com/watch?v=MfLy1wBZSPs"> click this to know about the phone</a></TD>
+        </tr>
+    </table>
+    <h5 align="right"><i><b>sanjana</h5>
+        <h5 align="right">24881A12B4</b></i></h5>
+
+    </h5>
+    </body>
+</html>
