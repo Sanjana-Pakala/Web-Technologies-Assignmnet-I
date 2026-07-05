@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+                input[type=text]{
+                    width:100%;
+                    background-color:red;
+                    padding:15px;
+                    color:white;
+                    border:2px solid;
+
+                }
+                input[type=number]{
+                    width:100%;
+                    background-color:blue;
+                    padding:15px;
+                    color:white;
+                    border:2px solid;
+
+                }
+                input[type=button]{
+                    width:50%;
+                    background-color:violet;
+                    padding:10px;
+                    color:white;
+                    margin-top:30px;
+                    border:2px solid;
+
+                }
+        </style>
+    </head>
+    <body>
+        <form>
+            Name<input type="text" placeholder="enter your name">
+            Occupation<input type="text" placeholder="enter your occupation">
+            Amount<input type="number" id="amount" placeholder="enter your amount">
+            Rate of Interest<input type="number" id="roi" placeholder="enter ROI">
+            Tenure<input type="number" id="tenure" placeholder="enter number of years">
+            <input type="button" value="calculate EMI" onclick="emivalidate()">
+        </form>
+        <p id="result"></p>
+        <script src="bank.js"></script>
+        <p align="right">P.Sanjana</p>
+        <p align="right"> 24881A12B4</p>
+    </body>
+</html>
