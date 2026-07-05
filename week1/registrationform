@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <h3>REGISTRATION FORM</h3>
+    </body>
+    <FORM>
+        <B>
+            FIRST NAME:<INPUT TYPE="TEXT" PLACEHOLDER="ENTER FIRST NAME"><BR><br>
+            LAST NAME:<INPUT TYPE="TEXT" PLACEHOLDER="ENTER LAST NAME"><BR>
+            EMAIL:<INPUT TYPE="TEXT" PLACEHOLDER="ENTER EMAIL ADDRESS"><BR>
+            PASSWORD:<INPUT TYPE="PASSWORD"><BR>
+            GENDER:<BR>MALE<INPUT TYPE="OPTION" NAME="GENDER"><BR>
+                       FEMALE<INPUT TYPE="OPTION" NAME="GENDER"><BR>
+                        OTHER<INPUT TYPE="OPTION" NAME="'GENDER"><BR>
+            AGE:<INPUT TYPE="TEXT"><BR>
+            PREFERENCES:<BR>ARCYLIC PANTING:<INPUT TYPE="CHECK BOX"><BR>
+                OIL PAINTING:<INPUT TYPE="CHECK BOX"><BR>
+                WATER COLOUR PAINTING:<INPUT TYPE="CHECK BOX"><BR>
+            SELECT OCCUPATION<SELECT><OPTION> STUDENT</OPTION>
+                                    <OPTION>FACULTY</OPTION>
+                                </SELECT>
+            BIO<TEXT AREA ROWS="5" COLS="10" PLACEHOLDER="SHARE FEW LINES ABOUT YOURSELF"/>
+            <INPUT TYPE="RESET" VALUE="'RESET"><INPUT TYPE="SUBMIT" VALUE="SUBMIT">
+        </BODY>                
+        </B>
+    </FORM>
+</html>
