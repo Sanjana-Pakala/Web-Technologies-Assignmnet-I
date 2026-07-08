@@ -1,0 +1,73 @@
+<html>
+<head>
+    Job Registration Form
+</head>
+
+<body bgcolor="grey" align="center">
+
+<form>
+<table align="center">
+<tr>
+<td>Name: <input type="text" id="one"></td>
+</tr>
+
+<tr>
+<td>Email: <input type="email" id="two"></td>
+</tr>
+
+<tr>
+<td>Contact Number: <input type="number" id="three"></td>
+</tr>
+
+<tr>
+<td><input type="submit" onclick="return validate()"></td>
+</tr>
+</table>
+</form>
+
+<p align="right">P. SANJANA</p>
+<p align="right">24881A12B4</p>
+
+<script>
+function validate(){
+    var un=document.getElementById("one");
+    var username=un.value;
+
+    var em=document.getElementById("two");
+    var email=em.value;
+
+    var mb=document.getElementById("three");
+    var phone=mb.value;
+
+    var unre=/^[a-zA-Z]+[a-zA-Z0-9._]*$/;
+    var ere=/^[a-zA-Z]+([\._]?\w+)*@\w+([\._]?\w+)*(\.\w{2,3})+$/;
+    var mrc=/^[6-9][0-9]{9}$/;
+
+    if (unre.test(username)){
+        if(ere.test(email)){
+            if(mrc.test(phone)){
+                alert("Registered successfully");
+                return true;
+            } else {
+                return error(mb);
+            }
+        } else {
+            return error(em);
+        }
+    } else {
+        return error(un);
+    }
+}
+
+function error(ele){
+    alert("Invalid");
+    ele.style.border="3px solid red";
+    ele.value="";
+    ele.placeholder="Invalid";
+    ele.focus();
+    return false;
+}
+</script>
+
+</body>
+</html>
